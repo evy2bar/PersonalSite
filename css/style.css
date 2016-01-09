@@ -84,13 +84,13 @@ ul, ol{
 #tf-menu a.navbar-brand {
 text-transform: uppercase;
 font-size: 22px;
-color: #fff;
+color: #fcf8e3;
 font-weight: 500;
 }
 
 #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #FFF;
+	color: #fcf8e3;
 	font-size: 12px;
 	letter-spacing: 1px;
 }
@@ -115,16 +115,16 @@ font-weight: 500;
 	border-color: #FCAC45;
 	}
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #FFF;
+	background-color: #fcf8e3;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/rocks.jpeg);
+	background: url(../img/rocks.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: #cfcfcf;
+	color: #fcf8e3;
 }
 
 #tf-home .overlay{
@@ -139,7 +139,7 @@ font-weight: 500;
 	background-attachment: fixed;
 }
 #tf-home p.lead{
-	color: #e3e3e3;
+	color: #fcf8e3;
 }
 
 .content{
@@ -165,7 +165,7 @@ a.fa.fa-angle-down {
 }
 a.fa.fa-angle-down:hover{
 	background: #fcac45;
-	color: #ffffff;
+	color: #fcf8e3;
 	border: 2px solid #fcac45;
 }
 /* About Section */
@@ -190,7 +190,7 @@ ul.about-list li span{
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: #ffffff;
+	color: #fcf8e3;
 }
 #tf-skills .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
@@ -232,7 +232,7 @@ ul.about-list li span{
 #team .item{
     padding: 0;
     margin: 15px;
-    color: #FFF;
+    color: #fcf8e3;
     text-align: center;
 }
 
@@ -252,7 +252,7 @@ img.img-circle.team-img {
 
 #tf-skills .thumbnail .caption {
 	padding: 9px;
-	color: #F2F2F2;
+	color: #fcf8e3;
 }
 
 /* Skills Section */
@@ -282,7 +282,7 @@ img.img-circle.team-img {
 
 #tf-skills-section .skills:hover>i.fa{
 	background: #FCAC45;
-	color: #ffffff;
+	color: #fcf8e3;
 }
 
 
@@ -352,9 +352,9 @@ ol.type li a.active { font-weight: 700; }
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
-	color: #ffffff;
+	color: #fcf8e3;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 25% 0;
+	padding: 3% 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -372,6 +372,26 @@ ol.type li a.active { font-weight: 700; }
     -webkit-transform: translateY(0);
             transform: translateY(0);
 }
+
+.hover-text h4{
+color: #FCAC45;
+}
+
+.hover-text p{
+	text-align: justify;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.hover-text small{
+	font-size: 12px;
+}
+
+.hover-line {
+	border-top: 1px solid #FCAC45;
+	content: '';
+	padding: 2% 0 2% 0;
+}
+
 .hover-bg .hover-text>i{
 	opacity: 0;
 	-webkit-transform: translateY(0);
@@ -396,11 +416,7 @@ ol.type li a.active { font-weight: 700; }
 	border-radius: 50%;
 	color: #FCAC45;
 }
-/* Modal Section */
-.modal-dialog {
-	width: 50%;
-	background-color:#3e3e40;
-}
+
 /* Email Section */
 #tf-email{
 	background: url(../img/flowers.jpeg);
@@ -408,14 +424,14 @@ ol.type li a.active { font-weight: 700; }
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: #ffffff;
+	color: #fcf8e3;
 }
 
 .send-btn {
 	background: rgba(71, 202, 185, 0.77);
 	border: solid 1px rgba(61, 201, 179, 0.5);
 	padding: 20px 100px;
-	color: #fff;
+	color: #fcf8e3;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: all 0.5s ease;
@@ -446,9 +462,9 @@ label {
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #555;
-	background-color: #fff;
+	background-color:#fcf8e3;
 	background-image: none;
-	border: 1px solid #ccc;
+	border: 1px solid #fcf8e3;
 	border-radius: 2px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -470,7 +486,7 @@ button.btn.tf-btn.btn-default {
 	border: 0;
 	border-radius: 0;
 	padding: 10px 40px;
-	color: #ffffff;
+	color: #fcf8e3;
 	text-transform: uppercase;
 }
 
@@ -494,7 +510,7 @@ button.btn.tf-btn.btn-default {
 /* Footer */
 nav#footer{
 	background: rgba(117, 116, 191, 0.76);
-	color: #ffffff;
+	color: #fcf8e3;
 	padding: 20px 0 15px 0;
 }
 nav#footer .fnav{
@@ -519,7 +535,10 @@ nav#footer p{
 	color: #fcf8e3;;
 	transition: all 0.5s;
 }
-#footer i.fa:hover{
+#footer i.fa:hover {
 	background: #FCAC45;
 	border-color: #FCAC45;
-	color: #ffffff;
+	color: #fcf8e3
+}
+
+
